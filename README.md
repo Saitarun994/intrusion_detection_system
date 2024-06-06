@@ -3,14 +3,20 @@
 </h1> 
 
 # Network Intrusion Detection System
-In today's digital age, safeguarding organizational data is critical, and network security is a major expense in this effort. Our project enhances this security layer with a sophisticated Intrusion Detection System (IDS), utilizing a neural network trained on the comprehensive KDD dataset. This system analyzes millions of network packets—including TCP, UDP, and ICMP types—to detect and classify 10 different attack patterns with high precision. I personally developed a model with an architecture featuring 79 neurons in the input layer and 12 in the output, running through 6 million packets for accurate classification. After extensive data cleaning to remove any corrupted data, our model achieves an impressive 95.43% accuracy for signature-based detection and 97.94% for anomaly detection, maintaining low false positive and negative rates. This robust system not only strengthens network defenses but also ensures continuous adaptation to evolving threats.
+<div align="center">
+  <p align="justify">
+    In today's digital age, safeguarding organizational data is critical, and network security is a major expense in this effort. Our project enhances this security layer with a sophisticated Intrusion Detection System (IDS), utilizing a neural network trained on the comprehensive KDD dataset. This system analyzes millions of network packets—including TCP, UDP, and ICMP types—to detect and classify 10 different attack patterns with high precision. I personally developed a model with an architecture featuring 79 neurons in the input layer and 12 in the output, running through 6 million packets for accurate classification. After extensive data cleaning to remove any corrupted data, our model achieves an impressive 95.43% accuracy for signature-based detection and 97.94% for anomaly detection, maintaining low false positive and negative rates. This robust system not only strengthens network defenses but also ensures continuous adaptation to evolving threats.
+  </p>
+</div>
 
-<img src="media/attack_types.png" width=150%>
+<h1 align="center">
+<img src="media/attack_types.png" width=75%>
+</h1> 
 
 # Model Architecture
-<h1 align="center">
+
 <img src="media/project_workflow.png">
-</h1> 
+
 
 ## 🔑 Key Achievements
 
